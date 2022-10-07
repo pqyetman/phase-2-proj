@@ -1,0 +1,5 @@
+# Redirects from what the browser requests to what we serve
+/Home.js              /home     200
+/SignUp.js            /signup   200
+/Login.js             /login    200
+/LoginOrSignUp.js     /         200
