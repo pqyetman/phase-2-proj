@@ -1,5 +1,5 @@
 # Redirects from what the browser requests to what we serve
- /home                    src/Home.js                 200
-/signup                   src/SignUp.js               200
-/login                    src/Login.js                200
- /*                       src/LoginOrSignUp.js        200
+ /home                    /Home.js                 200
+/signup                  /SignUp.js               200
+/login                    /Login.js                200
+ /                       /LoginOrSignUp.js        200
