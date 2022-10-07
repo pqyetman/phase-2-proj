@@ -38,7 +38,7 @@ function App() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3000/user")
+    fetch("https://bananaland.herokuapp.com/user")
       .then(res => res.json())
       .then(userdata => { setUserCheck(userdata) })
 
@@ -73,7 +73,7 @@ function App() {
     }
     else {
 
-      fetch("http://localhost:3000/user", {
+      fetch("https://bananaland.herokuapp.com/user", {
 
         method: "POST",
         headers: { 'Content-Type': 'application/json' },
