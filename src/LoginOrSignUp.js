@@ -7,7 +7,7 @@ import Image from 'react-bootstrap/Image'
 import { useHistory } from "react-router-dom";
 
 
-function LoginOrSignUp({}) {
+function LoginOrSignUp() {
 
   const history = useHistory();
 
